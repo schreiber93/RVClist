@@ -2,13 +2,14 @@
 //v 4.0 read cookie on load and display
 
 //v4.0 
-
+var count = 0;
 window.onload = function() {
      alert("Welcome to 'Shopping List' App!\n\nCreated by Rock Valley College\n**Javascript(Web233) Students**\n\nQuestions?\nemail Professor Chuck Konkol\nc.konkol@rockvalleycollege.edu\n\nRegister @ RockValleyCollege.edu");
   populateshoppinglistonload();
    displayShoppinglists();
     clearFocus();
 };
+
 //read cookie and return
 function readCookie(name) {
     var nameEQ = name + "=";
