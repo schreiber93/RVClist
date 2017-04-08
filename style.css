@@ -27,7 +27,7 @@ h1 {
 }
 input#item {
     float:left;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 input#remove {
     float:right;
