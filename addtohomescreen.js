@@ -24,10 +24,6 @@ function loaded () {
 	_DOMReady = true;
 }
 
-window.onload = function() {
-addToHomescreen();
-};
-
 // regex used to detect if app has been added to the homescreen
 var _reSmartURL = /\/ath(\/)?$/;
 var _reQueryString = /([\?&]ath=[^&]*$|&ath=[^&]*(&))/;
