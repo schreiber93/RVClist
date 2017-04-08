@@ -40,7 +40,7 @@ input#remove {
 input#adds {
     float:left;
     margin-bottom:20px;
-    margin-right:20px;
+    margin-right:10px;
     background-color: #f44165;
      color: #FFFFFF;
 }
