@@ -5,6 +5,10 @@ body {
     font: 14px/21px"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
 
+$('#additem').click(function(e) {
+  e.preventDefault();
+});
+
 label {
      float:left;
     padding-right: 15px;
