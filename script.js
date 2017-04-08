@@ -7,6 +7,7 @@
 window.onload = function() {
   populateshoppinglistonload();
    displayShoppinglists();
+    clearFocus();
 };
 //read cookie and return
 function readCookie(name) {
