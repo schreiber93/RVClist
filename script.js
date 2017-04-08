@@ -182,7 +182,7 @@ if (arrayLength > 0)
 }else
 {
    document.getElementById("labels").innerHTML = '';
-  document.getElementById("MyList").innerHTML = '';
+  document.getElementById("MyList").innerHTML = '$nbsp;';
 }
 }
 
