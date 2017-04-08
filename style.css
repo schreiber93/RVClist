@@ -99,7 +99,8 @@ form a:hover {
     text-shadow: 0 -1px 0 #1D5837;
 }
 #labels {
-    text-align: left;
+    float:left; margin:5px; white-space:nowrap; background:cyan;
+}
 }
 form a:active {
     border-color: #1D5837;
