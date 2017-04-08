@@ -31,14 +31,14 @@ input#item {
     margin-bottom:20px;
 }
 input#remove {
-    float:left;
+    float:right;
     margin-bottom:20px;
     margin-right:20px;
     background-color: #f44165;
      color: #FFFFFF;
 }
 input#adds {
-    float:right;
+    float:left;
     margin-bottom:20px;
     margin-right:20px;
     background-color: #f44165;
