@@ -7,7 +7,7 @@ window.onload = function() {
   populateshoppinglistonload();
    displayShoppinglists();
     clearFocus();
-     alert("Welcome to 'Shopping List'!\n\nCreated by Rock Valley College\n**Javascript Course(Web233) Students**\n\nQuestions?\nemail Professor Chuck Konkol\nc.konkol@rockvalleycollege.edu\n\nRegister @ RockValleyCollege.edu");
+     alert("Welcome to 'Shopping List'!\n\nCreated by Rock Valley College\n**Javascript(Web233) Students**\n\nQuestions?\nemail Professor Chuck Konkol\nc.konkol@rockvalleycollege.edu\n\nRegister @ RockValleyCollege.edu");
 };
 //read cookie and return
 function readCookie(name) {
