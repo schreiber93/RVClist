@@ -54,7 +54,8 @@ input#remove {
     margin-bottom:20px;
     margin-right:20px;
     background-color: #0a0f9e;
-     color: #FFFFFF;
+     color: #fdf909;
+     font-size:smaller;
 }
 input#adds {
     float:left;
