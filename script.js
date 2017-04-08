@@ -1,5 +1,16 @@
 //v 4.0 save / get array via cookies
 //v 4.0 read cookie on load and display
+
+//v4.0 enter key
+document.getElementById("go")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        document.getElementById("go").click();
+    }
+});
+
+
 window.onload = function() {
   populateshoppinglistonload();
    displayShoppinglists();
