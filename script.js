@@ -7,6 +7,7 @@ window.onload = function() {
   populateshoppinglistonload();
    displayShoppinglists();
     clearFocus();
+     alert("Welcome to 'Shopping List'!\nCreated by Rock Valley College\nJavascript Course(Web233)\nPlease Visit RockValleyCollege.edu\nto register for next course!");
 };
 //read cookie and return
 function readCookie(name) {
@@ -143,6 +144,8 @@ function addtoshopcart(item, num) {
 function addShoppinglist(item) {
   //v 3.0 declare variable for groc string
   //push to shoppinglist
+  if (item != "")
+  {
   shoppinglist.push(item);
   //display shoppinglist
   displayShoppinglists();
@@ -151,6 +154,11 @@ function addShoppinglist(item) {
   clearFocus();
   //v 4.0 save cookie
   savecookie();
+  }else
+  {
+  alert("Item Description Required: Please enter now :)");
+  clearFocus();
+  }
 }
 
 function clearFocus()
@@ -169,7 +177,7 @@ var TheRow = "";
 var arrayLength = shoppinglist.length;
 for (var i = 0; i < shoppinglist.length; i++) {
   //v 3.1 change button name to btndelete
-var btndelete =  ' <input class="button" id="remove" name="delete" type="button" value="Remove Item" onclick="deleteShoppinglists(' + i + ')" />';
+var btndelete =  ' <input class="button" id="remove" name="delete" type="button" value="Remove" onclick="deleteShoppinglists(' + i + ')" />';
 var btnupdate =  ' <input class="button" name="edit" type="button" value="Edit Item" onclick="changeShoppinglist(' + i + ')" />';
 //v 3.1 add edit button using below i index & name it btnpdate
 var arrays = shoppinglist[i];
@@ -196,7 +204,7 @@ var TheRow = "";
 var arrayLength = addtocart.length;
 for (var i = 0; i < arrayLength; i++) {
   //v 3.1 change button name to btndelete
-var btndelete =  ' <input class="button" id="remove" name="delete" type="button" value="Remove Item" onclick="deleteShoppingCart(' + i + ')" />';
+var btndelete =  ' <input class="button" id="remove" name="delete" type="button" value="Remove" onclick="deleteShoppingCart(' + i + ')" />';
 //v 3.1 add edit button using below i index & name it btnpdate
 var btnupdate =  ' <input class="button" name="edit" type="button" value="Edit Item" onclick="changeShoppingCart(' + i + ')" />';
 var arrays = addtocart[i];
