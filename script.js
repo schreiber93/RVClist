@@ -180,7 +180,7 @@ if (arrayLength > 0)
   document.getElementById("MyList").innerHTML = '<ul>' + TheList + '</ul>';
 }else
 {
-  document.getElementById("MyList").innerHTML = '';
+  document.getElementById("MyList").innerHTML = ' ';
 }
 }
 
