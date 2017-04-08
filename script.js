@@ -1,8 +1,7 @@
 //v 4.0 save / get array via cookies
 //v 4.0 read cookie on load and display
 
-//v4.0 enter key
-
+//v4.0 
 
 window.onload = function() {
   populateshoppinglistonload();
