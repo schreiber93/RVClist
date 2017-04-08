@@ -159,6 +159,7 @@ function clearFocus()
 
 //v 3.1: update function displayShoppinglists() to add to cart 
 function displayShoppinglists() {
+document.getElementById("MyList").innerHTML = '';
 var TheList = "";
 var TheRow = "";
 var arrayLength = shoppinglist.length;
@@ -185,6 +186,7 @@ if (arrayLength > 0)
 
 //v3.1
 function displayShoppingCart() {
+document.getElementById("MyCart").innerHTML = ''
 var TheList = "";
 var TheRow = "";
 var arrayLength = addtocart.length;
