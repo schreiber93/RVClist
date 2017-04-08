@@ -177,11 +177,9 @@ TheList += TheRow;
 //v3.1 add Title
 if (arrayLength > 0)
 {
-   document.getElementById("labels").innerHTML = '';
   document.getElementById("MyList").innerHTML = '<ul>' + TheList + '</ul>';
 }else
 {
-   document.getElementById("labels").innerHTML = 'Purchased'';
   document.getElementById("MyList").innerHTML = '';
 }
 }
