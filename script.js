@@ -180,7 +180,7 @@ if (arrayLength > 0)
   document.getElementById("MyList").innerHTML = '<ul>' + TheList + '</ul>';
 }else
 {
-  document.getElementById("MyList").innerHTML = '<br>';
+  document.getElementById("MyList").innerHTML = '';
 }
 }
 
@@ -204,7 +204,7 @@ TheList += TheRow;
 }
 if (arrayLength > 0)
 {
-  document.getElementById("MyCart").innerHTML = '<p>Shopping Cart</p>' + '<ul>' + TheList + '</ul>';
+  document.getElementById("MyCart").innerHTML = '<ul>' + TheList + '</ul>';
 }else{
   document.getElementById("MyCart").innerHTML = '';
 }
