@@ -32,7 +32,7 @@ label {
     text-indent: 5px;
 }
 #wrapper {
-    width:300px;
+    width:100%;
     margin:20px auto;
     padding:20px;
     border-radius: 5px 5px 0 0;
